@@ -1,3 +1,6 @@
+
+
+
 //Getting references
 let $dc = document.getElementById('dynamic-content')
 
@@ -24,4 +27,28 @@ const Data={
 let markup =    `<h2>${Data.partial1.heading}</h2>
                 <img src="${Data.partial1.imageURL}" alt="${Data.partial1.heading}" />
                 <p>${Data.partial1.content}</p>`;
-$dc.innerHTML = markup;
+    $dc.innerHTML = markup;
+
+// My functions
+function button1(){
+    let markup =    `<h2>${Data.partial1.heading}</h2>
+                <img src="${Data.partial1.imageURL}" alt="${Data.partial1.heading}" />
+                <p>${Data.partial1.content}</p>`;
+    $dc.innerHTML = markup;
+
+
+}
+
+function button2(){
+    let markup =    `<h2>${Data.partial2.heading}</h2>
+                <img src="${Data.partial2.imageURL}" alt="${Data.partial2.heading}" />
+                <p>${Data.partial2.content}</p>`;
+    $dc.innerHTML = markup;
+}
+
+function button3(){
+    let markup =    `<h2>${Data.partial3.heading}</h2>
+                <img src="${Data.partial3.imageURL}" alt="${Data.partial3.heading}" />
+                <p>${Data.partial3.content}</p>`;
+    $dc.innerHTML = markup;
+}
