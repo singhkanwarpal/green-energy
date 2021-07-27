@@ -20,9 +20,8 @@ const Data={
     }
 };
 
-console.log(Data.partial1);
-
 //Create initial markup
 let markup =    `<h2>${Data.partial1.heading}</h2>
-                <img src="${Data.partial1.imageURL}" alt="${Data.partial1.heading}" />`;
+                <img src="${Data.partial1.imageURL}" alt="${Data.partial1.heading}" />
+                <p>${Data.partial1.content}</p>`;
 $dc.innerHTML = markup;
