@@ -5,17 +5,17 @@ let $dc = document.getElementById('dynamic-content')
 const Data={
     partial1: {
         heading: 'Heading 1',
-        imageURL: 'images/image1.jpg',
+        imageURL: 'img/image1.jpg',
         content: 'This is content 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio quas numquam amet repudiandae accusantium reprehenderit et maxime, fugiat eveniet? Id sit corporis dolorum voluptatum aut quis. Accusantium, ipsa enim!'
     },
     partial2: {
         heading: 'Heading 2',
-        imageURL: 'images/image2.jpg',
+        imageURL: 'img/image2.jpg',
         content: 'This is content 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio quas numquam amet repudiandae accusantium reprehenderit et maxime, fugiat eveniet? Id sit corporis dolorum voluptatum aut quis. Accusantium, ipsa enim!'
     },
     partial3: {
         heading: 'Heading 3',
-        imageURL: 'images/image3.jpg',
+        imageURL: 'img/image3.jpg',
         content: 'This is content 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio quas numquam amet repudiandae accusantium reprehenderit et maxime, fugiat eveniet? Id sit corporis dolorum voluptatum aut quis. Accusantium, ipsa enim!'
     }
 };
