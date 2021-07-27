@@ -43,7 +43,7 @@ img{
     padding-right: 10px;
 }
 
-#active{
+.active{
     background-color: aqua;
     color: black;
 }

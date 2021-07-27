@@ -1,5 +1,6 @@
-
-
+$(document).on('click', 'ul li', function(){
+    $(this).addclass('active').siblings().removeClass('active')
+})
 
 //Getting references
 let $dc = document.getElementById('dynamic-content')
@@ -35,8 +36,7 @@ function button1(){
                 <img src="${Data.partial1.imageURL}" alt="${Data.partial1.heading}" />
                 <p>${Data.partial1.content}</p>`;
     $dc.innerHTML = markup;
-
-
+    
 }
 
 function button2(){
